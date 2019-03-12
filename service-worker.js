@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/eth-generate-test-address/precache-manifest.d0c59fa74ecedae8909279c764e16398.js"
+  "/etg-generate-test-address/precache-manifest.ebb54c237b77bbf7c6498863028a03a8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/eth-generate-test-address/index.html", {
+workbox.routing.registerNavigationRoute("/etg-generate-test-address/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
