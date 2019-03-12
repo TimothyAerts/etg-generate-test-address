@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "gh-pages": "^2.0.1",
+    "keccak": "^2.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "secp256k1": "^3.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
