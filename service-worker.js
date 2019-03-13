@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/etg-generate-test-address/precache-manifest.ebb54c237b77bbf7c6498863028a03a8.js"
+  "/etg-generate-test-address/precache-manifest.3ddd2bba1dde7f07c85634a2ca33a546.js"
 );
 
 workbox.clientsClaim();
