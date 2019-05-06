@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Button from '@material-ui/core/Button';
 import secp256k1 from 'secp256k1';
 import {randomBytes} from 'crypto';
@@ -17,7 +16,7 @@ class App extends Component {
       address:0,
       minRange:0x1,
       maxRange:0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140,
-      maxRangeString:'0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140'
+      maxRangeString:'FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140'
     }
   }
 
@@ -56,6 +55,9 @@ class App extends Component {
         <p>Public Key: 0x{this.state.pubKeyString}</p>
         <p>Keccak Hash: 0x{this.state.keccak} </p>
         <p>Address: 0x{this.state.address} </p>
+        <div>
+          <a target="_blank" href="https://docs.google.com/document/d/1i8wZSfkrzjfNrEnV6oJQOvtHyydrgclvwGrC0LfW1qk/edit?usp=sharing">GOOGLE DOCS</a>
+        </div>
       </div>
     );
   }
